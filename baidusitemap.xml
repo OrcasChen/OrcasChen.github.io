@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://www.orcasx.com/2017/08/24/mavenAddDependency.html</loc>
+    <lastmod>2017-08-23T19:30:48.156Z</lastmod>
+    <data>
+        <display>
+        <title>maven通过右键pom.xml无法add plugin</title>
+        <pubTime>2017-08-23T18:54:29.000Z</pubTime>
+        
+        <tag>error</tag>
+         
+        <tag>maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="maven" url="http://www.orcasx.com/categories/maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.orcasx.com/2017/08/23/tomcat.html</loc>
     <lastmod>2017-08-23T19:26:20.089Z</lastmod>
     <data>
@@ -19,28 +41,6 @@
            
              
               <breadCrumb title="tomcat" url="http://www.orcasx.com/categories/tomcat/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.orcasx.com/2017/08/24/mavenAddDependency.html</loc>
-    <lastmod>2017-08-23T19:20:28.730Z</lastmod>
-    <data>
-        <display>
-        <title>maven通过右键pom.xml无法add plugin</title>
-        <pubTime>2017-08-23T18:54:29.000Z</pubTime>
-        
-        <tag>error</tag>
-         
-        <tag>maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="maven" url="http://www.orcasx.com/categories/maven/"/>
           
         </display>
     </data>
