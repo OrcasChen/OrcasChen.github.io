@@ -1,3 +1,4 @@
-http://www.orcasx.com/2017/08/24/mavenAddDependency.html
-http://www.orcasx.com/2017/08/23/tomcat.html
-http://www.orcasx.com/2017/08/18/test.html
+http://www.orcasx.com/2017/08/27/201708/scottIsLockedInOracle.html
+http://www.orcasx.com/2017/08/24/201708/mavenAddDependency.html
+http://www.orcasx.com/2017/08/23/201708/tomcat.html
+http://www.orcasx.com/2017/08/18/201708/test.html

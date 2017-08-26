@@ -13,21 +13,24 @@ var _hmt = _hmt || [];
 <head>
     <meta charset="utf-8">
     
-    <title>About | Orcas</title>
+    <title>maven通过右键pom.xml无法add plugin | Orcas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="“Orcas”是C#3.0的研发代号，当时想立志成为一名程序猿，把所有社交账号都改成了Orcas**，然而现在已经在Java的进击路上一去不复返了。曾经无比痴迷于动漫和游戏，不过现在在学习面前它们已经没有任何诱惑力了，有很多技术需要学习和探究。现在还只能算是个码渣，但有一天我是要成为海贼王的。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About">
-<meta property="og:url" content="http://www.orcasx.com/about/index.html">
+    <meta name="description" content="通过右键单击pom.xml文件选择maven –&amp;gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&amp;gt;add 时，搜索不到依赖的jar包，解决方法如下：">
+<meta name="keywords" content="error,maven">
+<meta property="og:type" content="article">
+<meta property="og:title" content="maven通过右键pom.xml无法add plugin">
+<meta property="og:url" content="http://www.orcasx.com/2017/08/24/201708/mavenAddDependency.html">
 <meta property="og:site_name" content="Orcas">
-<meta property="og:description" content="“Orcas”是C#3.0的研发代号，当时想立志成为一名程序猿，把所有社交账号都改成了Orcas**，然而现在已经在Java的进击路上一去不复返了。曾经无比痴迷于动漫和游戏，不过现在在学习面前它们已经没有任何诱惑力了，有很多技术需要学习和探究。现在还只能算是个码渣，但有一天我是要成为海贼王的。">
+<meta property="og:description" content="通过右键单击pom.xml文件选择maven –&amp;gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&amp;gt;add 时，搜索不到依赖的jar包，解决方法如下：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://www.orcasx.com/img/onepiece.png">
-<meta property="og:updated_time" content="2017-08-18T13:13:26.593Z">
+<meta property="og:image" content="http://www.orcasx.com/img/maven/error_maven.png">
+<meta property="og:image" content="http://www.orcasx.com/img/maven/maven_rebuild.png">
+<meta property="og:image" content="http://www.orcasx.com/img/maven/maven_success.png">
+<meta property="og:updated_time" content="2017-08-23T19:36:42.127Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About">
-<meta name="twitter:description" content="“Orcas”是C#3.0的研发代号，当时想立志成为一名程序猿，把所有社交账号都改成了Orcas**，然而现在已经在Java的进击路上一去不复返了。曾经无比痴迷于动漫和游戏，不过现在在学习面前它们已经没有任何诱惑力了，有很多技术需要学习和探究。现在还只能算是个码渣，但有一天我是要成为海贼王的。">
-<meta name="twitter:image" content="http://www.orcasx.com/img/onepiece.png">
+<meta name="twitter:title" content="maven通过右键pom.xml无法add plugin">
+<meta name="twitter:description" content="通过右键单击pom.xml文件选择maven –&amp;gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&amp;gt;add 时，搜索不到依赖的jar包，解决方法如下：">
+<meta name="twitter:image" content="http://www.orcasx.com/img/maven/error_maven.png">
     
 
     
@@ -233,7 +236,7 @@ var _hmt = _hmt || [];
 </aside>
 
             
-            <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-201708/mavenAddDependency" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -241,10 +244,39 @@ var _hmt = _hmt || [];
                         
     
         <h1 class="article-title" itemprop="name">
-            About
+            maven通过右键pom.xml无法add plugin
         </h1>
     
 
+                        
+                            <div class="article-meta">
+                                
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/08/24/201708/mavenAddDependency.html">
+            <time datetime="2017-08-23T18:54:29.000Z" itemprop="datePublished">2017-08-24</time>
+        </a>
+    </div>
+
+
+                                
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/maven/">maven</a>
+    </div>
+
+                                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/error/">error</a>, <a class="tag-link" href="/tags/maven/">maven</a>
+    </div>
+
+                                <span class="post-meta-divider">|</span>
+                                <span class="post-meta-item-icon">
+                                   <i class="fa fa-eye"></i>
+                                </span>
+                                <span id="/2017/08/24/201708/mavenAddDependency.html" class="leancloud_visitors" data-flag-title="maven通过右键pom.xml无法add plugin"></span>
+                            </div>
                         
                     </header>
                 
@@ -252,7 +284,7 @@ var _hmt = _hmt || [];
         <div class="article-entry" itemprop="articleBody">
         
             
-            <p>“Orcas”是C#3.0的研发代号，当时想立志成为一名程序猿，把所有社交账号都改成了Orcas**，然而现在已经在Java的进击路上一去不复返了。<br><br>曾经无比痴迷于动漫和游戏，不过现在在学习面前它们已经没有任何诱惑力了，有很多技术需要学习和探究。<br><br>现在还只能算是个码渣，但有一天我是要成为海贼王的。<br><br><img src="/img/onepiece.png" alt=""></p>
+            <p>通过右键单击pom.xml文件选择maven –&gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&gt;add 时，搜索不到依赖的jar包，解决方法如下：<br><br><a id="more"></a><br><img src="/img/maven/error_maven.png" alt=""> <br><br>eclipse菜单 window-&gt; show view –&gt; other –&gt; Maven <br><br><img src="/img/maven/maven_rebuild.png" alt=""> <br><br>在打开的Maven Repositories窗口里，右键 local repositories –&gt; local repository ，选择 rebuild index即可。<br><br><img src="/img/maven/maven_success.png" alt=""> <br></p>
 
         
         </div>
@@ -316,16 +348,37 @@ var _hmt = _hmt || [];
 
             
     
-        <a href="http://www.orcasx.com/about/index.html#comments" class="article-comment-link">评论</a>
+        <a href="http://www.orcasx.com/2017/08/24/201708/mavenAddDependency.html#comments" class="article-comment-link">评论</a>
     
 
         </footer>
     </div>
     
         
+<nav id="article-nav">
+    
+        <a href="/2017/08/27/201708/scottIsLockedInOracle.html" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    scottIsLockedInOracle
+                
+            </div>
+        </a>
+    
+    
+        <a href="/2017/08/23/201708/tomcat.html" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">tomcat启动报错——“Could not publish server configuration for Tomcat v8.0...”</div>
+        </a>
+    
+</nav>
+
 
     
 </article>
+
+
 </section>
             
                 
