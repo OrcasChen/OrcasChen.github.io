@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.orcasx.com/"/>
-  <updated>2017-08-26T17:52:41.440Z</updated>
+  <updated>2017-08-26T18:15:56.435Z</updated>
   <id>http://www.orcasx.com/</id>
   
   <author>
@@ -16,16 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>scottIsLockedInOracle</title>
+    <title>scott登陆oracle提示the account is locked</title>
     <link href="http://www.orcasx.com/2017/08/27/201708/scottIsLockedInOracle.html"/>
     <id>http://www.orcasx.com/2017/08/27/201708/scottIsLockedInOracle.html</id>
     <published>2017-08-26T17:52:41.000Z</published>
-    <updated>2017-08-26T17:52:41.440Z</updated>
+    <updated>2017-08-26T18:15:56.435Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>问题：</strong><br><br>挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。<br><br>打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。<br><br><strong>原因：</strong><br><br>Oracle数据库默认Scott用户是锁定的，所以需要通过登陆SYSTEM用户去解除scott的锁定状态。<br><br><strong>具体解决：</strong><br><br>用SYSTEM用户新建连接，如果之前安装的时候有设置密码，则是你当时设置的那个密码，不然就是默认的密码manager。<br><br>然后新建查询：<code>alter user scott account unlock;</code>  <br><br><img src="/img/oracle/oracleUnlock.png" alt=""> <br><br>最后会提示你让你更改scott的密码，之后就可以正常使用了。</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;&lt;strong&gt;问题：&lt;/strong&gt;&lt;br&gt;&lt;br&gt;挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。&lt;br&gt;&lt;br&gt;打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。&lt;br&gt;&lt;
+    
     </summary>
     
+      <category term="oracle" scheme="http://www.orcasx.com/categories/oracle/"/>
+    
+    
+      <category term="oracle" scheme="http://www.orcasx.com/tags/oracle/"/>
+    
+      <category term="error" scheme="http://www.orcasx.com/tags/error/"/>
     
   </entry>
   
