@@ -45,9 +45,9 @@
     <link href="http://www.orcasx.com/2017/08/24/201708/mavenAddDependency.html"/>
     <id>http://www.orcasx.com/2017/08/24/201708/mavenAddDependency.html</id>
     <published>2017-08-23T18:54:29.000Z</published>
-    <updated>2017-08-27T07:08:56.891Z</updated>
+    <updated>2017-08-27T07:19:51.245Z</updated>
     
-    <content type="html"><![CDATA[<p>通过右键单击pom.xml文件选择maven –&gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&gt;add 时，搜索不到依赖的jar包，解决方法如下：<br><br><a id="more"></a><br><img src="/img/maven/error_maven.png" alt="img caption"> <br><br>eclipse菜单 window-&gt; show view –&gt; other –&gt; Maven <br><br><img src="/img/maven/maven_rebuild.png" alt=""> <br><br>在打开的Maven Repositories窗口里，右键 local repositories –&gt; local repository ，选择 rebuild index即可。<br><br><img src="/img/maven/maven_success.png" alt=""> <br></p>
+    <content type="html"><![CDATA[<p>通过右键单击pom.xml文件选择maven –&gt; add plugin/add dependency 或者是打开pom.xml文件，选择dependencies –&gt;add 时，搜索不到依赖的jar包，解决方法如下：<br><br><a id="more"></a><br><img src="/img/maven/error_maven.png" alt=""> <br><br>eclipse菜单 window-&gt; show view –&gt; other –&gt; Maven <br><br><img src="/img/maven/maven_rebuild.png" alt=""> <br><br>在打开的Maven Repositories窗口里，右键 local repositories –&gt; local repository ，选择 rebuild index即可。<br><br><img src="/img/maven/maven_success.png" alt=""> <br></p>
 ]]></content>
     
     <summary type="html">
