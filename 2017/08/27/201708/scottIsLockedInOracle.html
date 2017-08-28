@@ -13,21 +13,21 @@ var _hmt = _hmt || [];
 <head>
     <meta charset="utf-8">
     
-    <title>scott登陆oracle提示the account is locked | Orcas</title>
+    <title>scott登录oracle提示the account is locked | Orcas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。">
-<meta name="keywords" content="error,oracle">
+    <meta name="description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登录，密码是tiger，结果后来报错”the account is locked”。">
+<meta name="keywords" content="oracle,error">
 <meta property="og:type" content="article">
-<meta property="og:title" content="scott登陆oracle提示the account is locked">
+<meta property="og:title" content="scott登录oracle提示the account is locked">
 <meta property="og:url" content="http://www.orcasx.com/2017/08/27/201708/scottIsLockedInOracle.html">
 <meta property="og:site_name" content="Orcas">
-<meta property="og:description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。">
+<meta property="og:description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登录，密码是tiger，结果后来报错”the account is locked”。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://www.orcasx.com/img/oracle/oracleUnlock.png">
-<meta property="og:updated_time" content="2017-08-26T18:17:16.348Z">
+<meta property="og:updated_time" content="2017-08-28T04:19:07.283Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="scott登陆oracle提示the account is locked">
-<meta name="twitter:description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。">
+<meta name="twitter:title" content="scott登录oracle提示the account is locked">
+<meta name="twitter:description" content="问题：挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。打开navicat新建连接，用的scott登录，密码是tiger，结果后来报错”the account is locked”。">
 <meta name="twitter:image" content="http://www.orcasx.com/img/oracle/oracleUnlock.png">
     
 
@@ -238,7 +238,7 @@ var _hmt = _hmt || [];
                         
     
         <h1 class="article-title" itemprop="name">
-            scott登陆oracle提示the account is locked
+            scott登录oracle提示the account is locked
         </h1>
     
 
@@ -269,7 +269,7 @@ var _hmt = _hmt || [];
                                 <span class="post-meta-item-icon">
                                    <i class="fa fa-eye"></i>
                                 </span>
-                                <span id="/2017/08/27/201708/scottIsLockedInOracle.html" class="leancloud_visitors" data-flag-title="scott登陆oracle提示the account is locked"></span>
+                                <span id="/2017/08/27/201708/scottIsLockedInOracle.html" class="leancloud_visitors" data-flag-title="scott登录oracle提示the account is locked"></span>
                             </div>
                         
                     </header>
@@ -278,7 +278,7 @@ var _hmt = _hmt || [];
         <div class="article-entry" itemprop="articleBody">
         
             
-            <p><strong>问题：</strong><br><br>挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。<br><br>打开navicat新建连接，用的scott登陆，密码是tiger，结果后来报错”the account is locked”。<br><br><a id="more"></a><br><strong>原因：</strong><br><br>Oracle数据库默认Scott用户是锁定的，所以需要通过登陆SYSTEM用户去解除scott的锁定状态。<br><br><strong>具体解决：</strong><br><br>用SYSTEM用户新建连接，如果之前安装的时候有设置密码，则是你当时设置的那个密码，不然就是默认的密码manager。<br><br>然后新建查询：<code>alter user scott account unlock;</code>  <br><br><img src="/img/oracle/oracleUnlock.png" alt=""> <br><br>最后会提示你让你更改scott的密码，之后就可以正常使用了。</p>
+            <p><strong>问题：</strong><br><br>挺久没有用Oracle了，之前装的是XE版本，这次重新装了企业版。<br><br>打开navicat新建连接，用的scott登录，密码是tiger，结果后来报错”the account is locked”。<br><br><a id="more"></a><br><strong>原因：</strong><br><br>Oracle数据库默认Scott用户是锁定的，所以需要通过登陆SYSTEM用户去解除scott的锁定状态。<br><br><strong>具体解决：</strong><br><br>用SYSTEM用户新建连接，如果之前安装的时候有设置密码，则是你当时设置的那个密码，不然就是默认的密码manager。<br><br>然后新建查询：<code>alter user scott account unlock;</code>  <br><br><img src="/img/oracle/oracleUnlock.png" alt=""> <br><br>最后会提示你让你更改scott的密码，之后就可以正常使用了。</p>
 
         
         </div>
@@ -389,7 +389,7 @@ var _hmt = _hmt || [];
                         
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/oracle/">oracle</a></p>
-                            <p class="item-title"><a href="/2017/08/27/201708/scottIsLockedInOracle.html" class="title">scott登陆oracle提示the account is locked</a></p>
+                            <p class="item-title"><a href="/2017/08/27/201708/scottIsLockedInOracle.html" class="title">scott登录oracle提示the account is locked</a></p>
                             <p class="item-date"><time datetime="2017-08-26T17:52:41.000Z" itemprop="datePublished">2017-08-27</time></p>
                         </div>
                     </li>
@@ -478,7 +478,7 @@ var _hmt = _hmt || [];
     <div class="widget-wrap">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
-            <a href="/tags/error/" style="font-size: 23px; color: #f00">error</a> <a href="/tags/maven/" style="font-size: 13px; color: #90f">maven</a> <a href="/tags/oracle/" style="font-size: 13px; color: #90f">oracle</a> <a href="/tags/huhu/" style="font-size: 13px; color: #90f">huhu</a> <a href="/tags/tomcat/" style="font-size: 13px; color: #90f">tomcat</a>
+            <a href="/tags/huhu/" style="font-size: 13px; color: #90f">huhu</a> <a href="/tags/oracle/" style="font-size: 13px; color: #90f">oracle</a> <a href="/tags/error/" style="font-size: 23px; color: #f00">error</a> <a href="/tags/maven/" style="font-size: 13px; color: #90f">maven</a> <a href="/tags/tomcat/" style="font-size: 13px; color: #90f">tomcat</a>
         </div>
     </div>
 
